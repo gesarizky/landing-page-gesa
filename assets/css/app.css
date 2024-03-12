@@ -57,7 +57,7 @@ header.navbar-container .nav-list li a {
 
 header.navbar-container .nav-list li:hover a {
   backgroung-color: #42c77;
-  color: white;
+  color: gray;
 }
 main {
   flex: 1;
