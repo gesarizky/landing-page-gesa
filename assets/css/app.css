@@ -208,6 +208,64 @@ main aside .social-media li a:hover {
   color: #89b0d9;
 }
 
+.certificates {
+  width: 100%;
+  max-width: 1200px;
+  margin-inline: auto;
+  padding: 2rem 4rem;
+  text-align: center;
+}
+
+.certificates .section-title {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #2d3e50;
+}
+
+.certificate-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.certificate-item {
+  padding: 1.5rem;
+  border-radius: 8px;
+  background-color: #f4f4f4;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.certificate-item h3 {
+  font-size: 1.5rem;
+  color: #2d3e50;
+  margin-bottom: 0.5rem;
+}
+
+.certificate-item p {
+  margin: 0.5rem 0;
+  color: #2d3e50;
+}
+
+.certificate-item a {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  color: white;
+  background-color: #2d3e50;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.certificate-item a:hover {
+  border: 0.1px solid #2d3e50;
+  background-color: transparent;
+
+  color: #2d3e50;
+}
+
+
 /* medium device (under 768px) */
 @media screen and (max-width: 768px) {
   header.navbar-container {
@@ -233,4 +291,11 @@ main aside .social-media li a:hover {
   main .intro .intro-image {
     order: -1;
   }
-}
+  .certificate-item {
+    flex: 1 1 calc(50% - 2rem);
+  }
+
+  .certificates .section-title {
+    font-size: 2rem;
+  }
+}  
